@@ -1,0 +1,9 @@
+.circle {
+    background-color: #ff0000;
+    border-radius: 100%;
+    position: absolute;
+}
+
+.circle-container{
+    position: absolute;
+}
