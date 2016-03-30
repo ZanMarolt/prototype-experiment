@@ -23,3 +23,9 @@ body {
     transform: translate(-50%, -50%);
     margin-top: -80px;
 }
+
+.circle-content {
+    color: #fff;
+    font-family:arial;
+    padding:20px;
+}
