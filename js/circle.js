@@ -88,9 +88,12 @@ Circle.prototype.addEvents = function(){
     this.circleElement.on('mouseleave', function(){
 
         $(self.circleElement).transition({scale:1});
-        $(self.circleElement).css({
-            zIndex:0
-        });
+        setTimeout(function(){
+            $(self.circleElement).css({
+                zIndex:0
+            });
+        }, 150)
+
 
     });
 

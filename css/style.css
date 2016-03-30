@@ -1,3 +1,6 @@
+body {
+    background-color: #ebebeb;
+}
 .circle {
     background-color: #ff0000;
     border-radius: 100%;
@@ -9,4 +12,14 @@
 
 .circle-container{
     position: absolute;
+}
+
+.instructions {
+    font-family: arial;
+    color:#444444;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    margin-top: -80px;
 }
